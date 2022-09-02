@@ -1,0 +1,182 @@
+* {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.83em;
+}
+
+address {
+  font-style: normal;
+}
+
+.maincontainer {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+main {
+  position: relative;
+  top: 62px;
+
+}
+
+/* NAVIGATION BAR ===========================================================================================*/
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: 1;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav {
+  text-decoration: underline;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+}
+
+#logo {
+  height: 50px;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin: 20px;
+  height: auto;
+}
+
+/* SECTION HERO ===========================================================================================*/
+
+#Hero {
+  height: 700px;
+
+}
+
+#Hero img {
+  margin: auto;
+  height: inherit;
+}
+
+.banner {
+  position: absolute;
+  width: 1200px;
+}
+
+/* SECTION TEA OF THE MONTH ===========================================================================================*/
+#TeeOfTheMonth {
+  margin-top: 100px;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image img {
+  height: 200px;
+  width: 300px;
+}
+
+
+
+section {
+  position: relative;
+}
+
+#TeeOfTheMonthLink {
+  position: absolute;
+  top: -80px;
+}
+
+/* SECTION LOCATIONS ===========================================================================================*/
+
+#container2 {
+  width: 1000px;
+  position: absolute;
+}
+
+#addresses {
+  display: inline-flex;
+  justify-content: space-around;
+  width: inherit;
+}
+
+#container2,
+.titulo,
+.titulo h2,
+#addresses {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.Location {
+  flex-basis: 300px;
+  margin: 0 20px;
+  opacity: 1;
+
+}
+
+.Location li {
+  list-style: none;
+  line-height: 50px;
+
+}
+/* FOOTER ===========================================================================================*/
+footer {
+  position: relative;
+  top: 62px;
+  height: 80px;
+  display: flex ;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+footer h4 {
+  margin-left: 20px;
+}
